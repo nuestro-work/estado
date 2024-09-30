@@ -1,18 +1,18 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: 'Estado de servicios'
+  url: 'https://estado.nuestro.work' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  allmonitorsOperational: 'Todos los sistemas pperativos'
+  notAllmonitorsOperational: 'No Todos los sistemas están operativos'
+  monitorLabelOperational: 'Operativo'
+  monitorLabelNotOperational: 'No operativo'
+  monitorLabelNoData: 'Sin datos'
+  dayInHistogramNoData: 'Sin datos'
+  dayInHistogramOperational: 'Todo bien'
+  dayInHistogramNotOperational: ' incidente(s)' # xx incidente(s) registrado(s)
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
