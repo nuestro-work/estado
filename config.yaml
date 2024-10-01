@@ -5,7 +5,7 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'Todos los sistemas pperativos'
+  allmonitorsOperational: 'Todos los sistemas operativos'
   notAllmonitorsOperational: 'No Todos los sistemas están operativos'
   monitorLabelOperational: 'Operativo'
   monitorLabelNotOperational: 'No operativo'
