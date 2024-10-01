@@ -32,7 +32,7 @@ monitors:
     expectStatus: 200
     linkable: false
 
-    - id: api-nuestro-work
+  - id: api-nuestro-work
     name: api.nuestro.work
     description: 'Plataforma de trabajo.'
     url: 'https://api.nuestro.work/api/v1/estado'
